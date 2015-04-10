@@ -1,0 +1,140 @@
+* {
+    font-family: 'Droid Sans', sans-serif;
+}
+
+body {
+    background-color: #404040;
+}
+
+/* navbar */
+.navbar-default {
+    background-color: #404040;
+    border-color: #404040;
+}
+
+.navbar-header {
+    float: left;
+    text-align: center;
+    width: 100%;
+    padding-top: 25px;
+}
+    
+
+/* title */
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: 2.5em;
+    float: none
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: white;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #6DBDD6;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: white;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+}
+
+.jumbotron {
+    background-image: url(../images/kb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.jumbotron h1 {
+    color: white;
+    text-align: center;
+}
+
+.emphasis {
+    color: #6DBDD6;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.titleEmp {
+    color: #6DBDD6;
+    font-weight: bold;
+}
+
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 75px;
+    width: 100%;
+    background: #B71427;
+    color: white;
+    padding-top: 17px;
+    overflow: hidden;
+}
+
+.footerInfo {
+    text-align: center;
+    font-size: .75em;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover,
+footer a:focus {
+    color: #6DBDD6;
+    text-decoration: none;
+}
+    
+    
